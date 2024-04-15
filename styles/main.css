@@ -1,0 +1,165 @@
+@import "fonts.css";
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: "DIN", sans-serif;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+}
+
+img
+{
+    display: flex;
+    vertical-align: middle;
+}
+
+.container
+{
+    max-width: 1110px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top-logo
+{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.top-logo:hover
+{
+    scale: 1.15;
+}
+
+.navbar-list
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-link
+{
+    color: #8c8a8a;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-link:hover
+{
+    color: black;
+}
+
+.navbar__list-link:hover 
+{
+    color: #000000;
+}
+
+.section-one
+{
+    margin-bottom: 50px;
+}
+
+.section-one-img
+{
+    width: 100%;
+}
+
+.section-two 
+{
+    display: flex;
+    gap: 30px;
+}
+.section-two-left
+{
+    max-width: 730px;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 95px;
+    padding-bottom: 50px;
+}
+
+.section-two-right {
+    max-width: 350px;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 25px;
+}
+.section__two-title {
+    color: #4581b7;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.section__two-text {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footer__content-text {
+    color: #808080;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer__content-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    justify-content: end;
+}
